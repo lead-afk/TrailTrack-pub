@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "UJ20-C-H-G-SMT-TR") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/UJ20-C-H-G-SMT-TR.kicad_sym") (options "") (descr ""))
+)

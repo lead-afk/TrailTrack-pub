@@ -1,0 +1,13 @@
+(version 1)
+
+(rule "USB_Zone_Clearance"
+   (constraint clearance (min 0.5mm))
+   (condition "A.NetClass == 'usb' && B.Type == 'zone'"))
+
+(rule "SDMM"
+   (constraint clearance (min 0.5mm))
+   (condition "A.NetClass == 'sdmm' && B.Type == 'zone'"))
+
+(rule "OSC"
+   (constraint clearance (min 0.5mm))
+   (condition "A.NetClass == 'osc' && B.Type == 'zone'"))
